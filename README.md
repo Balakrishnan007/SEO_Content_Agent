@@ -11,7 +11,7 @@ User enters a relevant query
      ↓
 Node 1 Agent:
   1. Searches Qdrant with user query (top_k=10)
-  2. Scrapes existing articles on sest.gmbh/news/ (inorder to avoid the repition of the same topics)
+  2. Scrapes existing articles on sest.gmbh/news/ (in order to avoid the repitition of the same topics)
   3. Extracts top 5 keywords from retrieved chunks
   4. Searches internet for current trends (Tavily)
   5. LLM suggests topic, category and 10 SEO keywords
