@@ -14,12 +14,12 @@ def ask(prompt: str, default: str) -> str:
 
 def human_checkpoint_1(state: dict) -> dict:
     """
-    Human Checkpoint 1 — review Node 1 suggestion.
+    Human Checkpoint 1  review Node 1 suggestion.
     Human can approve the topic or reject and pick a different category.
     If rejected, Node 1 re-runs with the preferred category as a constraint.
     """
     while True:
-        print("\nCheckpoint 1 — Topic Review")
+        print("\nCheckpoint 1 - Topic Review")
         print(f"  Topic    : {state['suggested_topic']}")
         print(f"  Category : {state['suggested_category']}")
         print(f"  Keywords : {', '.join(state['suggested_keywords'])}")
@@ -48,10 +48,10 @@ def human_checkpoint_1(state: dict) -> dict:
 
 def human_checkpoint_2(state: dict) -> dict:
     """
-    Human Checkpoint 2 — select content type and writing tone.
+    Human Checkpoint 2  select content type and writing tone.
     Shows a preview of retrieved chunks before selection.
     """
-    print("\nCheckpoint 2 — Content Type & Tone")
+    print("\nCheckpoint 2 - Content Type & Tone")
 
     # show preview of retrieved content
     chunks = state.get("retrieved_chunks", [])

@@ -18,7 +18,7 @@ WICHTIGE REGELN:
    - Strategie   : KI-Strategie, Roadmap, Führungskräfte, Change Management, ROI
    - Training    : Schulung, Weiterbildung, E-Learning, Workshop, AI Literacy
    - Technologie : KI-Agenten, Microsoft Stack, Softwareentwicklung, Automatisierung, LLMs
-7. Schlage genau 10 SEO-Keywords vor — ausgewogene Mischung aus internen Begriffen und Web-Trends.
+7. Schlage genau 10 SEO-Keywords vor - ausgewogene Mischung aus internen Begriffen und Web-Trends.
 
 AUSGABEFORMAT (JSON):
 {{
@@ -33,7 +33,7 @@ Antworte NUR mit dem JSON-Objekt. Kein Text davor oder danach."""
 
 NODE1_USER_PROMPT = """Hier sind die Informationen für deine Analyse:
 
-NUTZERWUNSCH (das möchte der Nutzer — halte dich daran):
+NUTZERWUNSCH (das möchte der Nutzer - halte dich daran):
 {user_query}
 
 INTERNES WISSEN (aus unseren Transkripten und Produktdokumenten):
@@ -65,7 +65,7 @@ WICHTIGE REGELN:
 2. Behalte eine Balance: 50% Transkripte und 50% Produktdokumente.
 3. Transkripte liefern authentische Kundenperspektiven und reale Anwendungsfälle aus unserer Arbeit.
 4. Produktdokumente liefern strukturiertes Fachwissen über unsere Angebote.
-5. Gib die Chunks als REINEN TEXT zurück — keine Markdown-Formatierung, keine Ueberschriften.
+5. Gib die Chunks als REINEN TEXT zurück - keine Markdown-Formatierung, keine Ueberschriften.
    Der Writer muss den Text direkt verwenden koennen."""
 
 
@@ -77,7 +77,7 @@ Hier sind die gefundenen Chunks aus unserer Wissensdatenbank:
 
 Bewerte diese Chunks nach ihrer Relevanz für das Thema.
 Behalte die Balance: 50% Transkript-Chunks und 50% Produktdokument-Chunks.
-Gib die relevantesten Chunks als reinen Text zurück — keine Markdown-Formatierung.
+Gib die relevantesten Chunks als reinen Text zurück - keine Markdown-Formatierung.
 Trenne die Chunks mit einer Leerzeile."""
 
 
@@ -85,7 +85,7 @@ Trenne die Chunks mit einer Leerzeile."""
 # Writes a full German SEO article (1000+ words) based on
 # approved topic, keywords, content type and writing tone.
 
-NODE3_SYSTEM_PROMPT = """Du bist ein erfahrener Journalist und Content-Writer, der fest im Team von SESTdigital arbeitet —
+NODE3_SYSTEM_PROMPT = """Du bist ein erfahrener Journalist und Content-Writer, der fest im Team von SESTdigital arbeitet -
 einem Unternehmen für KI-Schulungen und KI-Softwareentwicklung aus München.
 
 Du schreibst nicht ÜBER uns, du schreibst ALS einer von uns.

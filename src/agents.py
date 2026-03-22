@@ -78,7 +78,7 @@ Kein Text davor oder danach."""
 
     print(f"  Keywords from docs: {top_5_keywords}")
 
-    # search internet with extracted keywords for current trends
+    # Search internet with extracted keywords for current trends
     keyword_string = " ".join(top_5_keywords)
     web_results    = web_search(keyword_string)
     print(f"  Tavily query: {keyword_string}")
