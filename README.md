@@ -22,7 +22,8 @@ Node 2 Agent:
   1. Combines approved topic + approved keywords as a single query
   2. Searches Qdrant for transcripts (top_k=5)
   3. Searches Qdrant for product docs (top_k=5)
-  4. LLM acts as a reranker which reads all 10 chunks and keeps only the ones truly relevant to the approved topic (50/50 balance maintained)
+  4. 4. LLM reads all 10 retrieved chunks, filters the most relevant content and returns it as clean text maintaining 50/50 balance between transcripts 
+   and product docs
      ↓
 Human Checkpoint 2 - Choose content type and article tone which will decide how the article should sound
      ↓
